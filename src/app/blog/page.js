@@ -5,7 +5,7 @@ const blog = () => {
     <div>
         
       <section>
-        <h1>Blog</h1>
+        <h1 className='text-4xl font-bold'>Blog</h1>
       </section>
       
     </div>
