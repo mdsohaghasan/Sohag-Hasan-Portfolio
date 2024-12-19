@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-gray-900 p-6 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-extrabold">
-          <a href="/" className="hover:text-gray-400 transition duration-300">MyLogo</a>
+          <Link href="/" className="hover:text-gray-400 transition duration-300">MyLogo</Link>
         </div>
         <ul className="flex space-x-8">
           <li><Link href="/" className="text-gray-300 hover:text-white transition duration-300">Home</Link></li>
@@ -22,4 +22,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
