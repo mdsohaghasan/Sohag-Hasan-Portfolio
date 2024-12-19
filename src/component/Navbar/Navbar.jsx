@@ -14,15 +14,15 @@ const Navbar = () => {
         </div>
 
         {/* menu Item  */}
-        <div>
-        <ul className="flex space-x-8 text-xl p-4">
-          <li><Link href="/" className="text-gray-300 hover:text-white transition duration-300">Home</Link></li>
-          <li><Link href="/about" className="text-gray-300 hover:text-white transition duration-300">About Us</Link></li>
-          <li><Link href="/work" className="text-gray-300 hover:text-white transition duration-300">Work</Link></li>
-          <li><Link href="/insights" className="text-gray-300 hover:text-white transition duration-300">Insights</Link></li>
-          <li><Link href="/blog" className="text-gray-300 hover:text-white transition duration-300">Blog</Link></li>
-          <li><Link href="/contact" className="text-gray-300 hover:text-white transition duration-300">Contact</Link></li>
-        </ul>
+        <div className="flex justify-end">
+          <ul className="flex space-x-5 text-xl">
+            <li><Link href="/" className="text-gray-300 hover:text-white transition duration-300">Home</Link></li>
+            <li><Link href="/about" className="text-gray-300 hover:text-white transition duration-300">About Us</Link></li>
+            <li><Link href="/work" className="text-gray-300 hover:text-white transition duration-300">Work</Link></li>
+            <li><Link href="/insights" className="text-gray-300 hover:text-white transition duration-300">Insights</Link></li>
+            <li><Link href="/blog" className="text-gray-300 hover:text-white transition duration-300">Blog</Link></li>
+            <li><Link href="/contact" className="text-gray-300 hover:text-white transition duration-300">Contact</Link></li>
+          </ul>
         </div>
         
       </div>
@@ -31,6 +31,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-

@@ -7,10 +7,10 @@ import Dream from './Dream/Dream';
 
 const About = () => {
   return (
-    <div className="bg-gray-100 p-8">
+    <div className="bg-gray-900 text-white p-8">
       <div className="container mx-auto">
         <header className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-800">About Us</h1>
+          <h1 className="text-4xl font-bold text-center text-white">About Us</h1>
         </header>
          <Info /> 
          <Skill />
